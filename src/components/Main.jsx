@@ -1,25 +1,26 @@
 const Main = props =>(
     
     <>
+    <div className="main">
     <div>
         <h2>
-            Completa il Form e dicci cosa possiamo migliorare, il tuo parere per noi è fondamentale
+            {props.textH2}
         </h2>
     </div>
 
 
-    <form action="form" method="post">
+    
 
-    <label htmlFor="nome">Nome:</label>
+    <label htmlFor={props.id}>{props.labelText}</label>
     <input type="text"  name="nome" required/>
 
 
-    <label htmlFor="email">Email:</label>
+    <label htmlFor={props.id}>{props.labelText2}</label>
     <input type="email"  name="email" required/>
 
    
-    <button  type="submit">Invia</button>
-</form>
+    <button  type="submit">{props.btnText}</button>
+    </div>
 </>
 )
 export default Main;

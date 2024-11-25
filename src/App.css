@@ -52,7 +52,17 @@
   float: left;
   padding: 10px;
 }
-
+.header p{
+  margin: 0;
+}
 .form{
 background-color: #f7353f;
+}
+
+.main{
+  background-color:#00aef0 ;
+  margin-top: 0;
+}
+.main h2{
+  margin-top: 0;
 }
