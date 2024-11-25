@@ -13,17 +13,11 @@ const Main = props =>(
     <label htmlFor="nome">Nome:</label>
     <input type="text"  name="nome" required/>
 
-    <label htmlFor="cogome">Cognome:</label>
-    <input type="text"  name="Cognome" required/>
 
     <label htmlFor="email">Email:</label>
     <input type="email"  name="email" required/>
 
-    <label htmlFor="messaggio">Dicci la tua:</label>   
-
-    <textarea id="messaggio" name="messaggio" rows="3"></textarea>   
-
-
+   
     <button  type="submit">Invia</button>
 </form>
 </>
